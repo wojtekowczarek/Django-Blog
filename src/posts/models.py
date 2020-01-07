@@ -22,5 +22,5 @@ class Author(models.Model):
     cellphone_num = models.IntegerField()
 
     def __str__(self):
-        return self.user.name
+        return self.user.username
     
